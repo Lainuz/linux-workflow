@@ -5,6 +5,6 @@ saludo-job:
 runs-on: ubuntu-latest # El runner (servidor Linux)
 steps:
 - name: Imprimir saludo
-run: echo "¡Hola! Estoy ejecutando esto automáticamente."
+run:  'echo "¡Hola! Estoy ejecutando esto automáticamente."'
 - name: Listar archivos
 run: ls -la # Comando Linux que ya conoces
